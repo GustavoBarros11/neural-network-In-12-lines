@@ -8,7 +8,7 @@ X = np.array([ [0,0,1],[0,1,1],[1,0,1],[1,1,1] ])
 y = np.array([[0,1,1,0]]).T
 w_0_1 = 2*np.random.random((3,4)) - 1
 w_1_2 = 2*np.random.random((4,1)) - 1
-for j in range(60000):
+for j in range(50000):
     l1 = 1/(1+np.exp(-(np.dot(X,w_0_1))))
     l2 = 1/(1+np.exp(-(np.dot(l1,w_1_2))))
     l2_delta = (y - l2)*(l2*(1-l2))
