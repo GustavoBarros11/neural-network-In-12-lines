@@ -1,6 +1,7 @@
-# Creating a Neural Network in 12 lines of Python Code
+# Neural Network in 12 lines
 This code shows that creating a simple neural network can be really easy and straightfoward!
-
+<br/>
+*SimplestEverNeuralNet.py*
 ```python
 import numpy as np
 X = np.array([ [0,0,1],[0,1,1],[1,0,1],[1,1,1] ])
